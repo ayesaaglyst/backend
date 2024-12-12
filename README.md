@@ -51,6 +51,7 @@
 - **Endpoint**: `/journal`
 - **Method**: `GET`
 - **Query Parameters:**
+  
 | Parameter | Type   | Description                                            |
 |-----------|--------|--------------------------------------------------------|
 | `page`    | Number | Halaman data (default: 1).                             |
@@ -67,6 +68,7 @@
 - **Endpoint**: `/nutrition/classification`
 - **Method**: `GET`
 - **Query Parameters:**
+  
 - `classification` (required): The classification level to filter food recommendations. Valid values are:
   - `0` - Severely Stunted
   - `1` - Stunted
